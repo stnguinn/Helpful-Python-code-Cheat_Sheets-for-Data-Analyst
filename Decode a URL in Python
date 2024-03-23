@@ -1,0 +1,6 @@
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+
+String decodedUrl = URLDecoder.decode("https%3A%2F%2Fexample.com%2Fpath%3Fquery%3Dvalue%20with%20spaces", StandardCharsets.UTF_8.toString());
+
+
